@@ -15,7 +15,7 @@ public class StringReverserController {
     StringReverser stringReverser;
 
     @GetMapping("string/{word}")
-    public String reversWord(@PathVariable String word){
+    public String reversWord(@PathVariable String word) {
         return stringReverser.reverseString(word);
     }
 }
